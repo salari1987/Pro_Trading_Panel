@@ -1,1 +1,35 @@
- 
+# MetaTrader 5 - Compiled files
+*.ex5
+*.ex4
+
+# Compiled libraries
+*.dll
+
+# Logs and cache
+*.log
+*.dat
+*.bin
+
+# MT5 Terminal specific
+profiles/
+history/
+tester/
+logs/
+files/
+templates/
+presets/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Compiled expert advisors (keep only source)
+.ex5/ 
